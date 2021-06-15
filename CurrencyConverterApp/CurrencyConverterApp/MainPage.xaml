@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:currencyconverterapp="clr-namespace:CurrencyConverterApp" x:DataType="currencyconverterapp:CurrencyInfoView"
+             x:Class="CurrencyConverterApp.MainPage"
+             x:Name="root">
+
+    <StackLayout Orientation="Vertical">
+        <Label FontSize="30" Text="Конвертер валют" HorizontalOptions="Center"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+            <Label Text="Дата"/>
+            <DatePicker x:DataType="currencyconverterapp:Converter" Date="{Binding Date}"/>
+        </StackLayout>
+        <Label Text="Курс" HorizontalOptions="End" Margin="0, 0, 40, 0 "/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Picker x:DataType="currencyconverterapp:Converter" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding List}"
+                ItemDisplayBinding="{Binding Name}" SelectedIndex="{Binding FirstItem, Mode=TwoWay}"/>
+            <Entry Grid.Row="0" Grid.Column="2" Text="{Binding BindingContext.FirstEntry, Source={x:Reference Name=root}}" Keyboard="Numeric" />
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Picker x:DataType="currencyconverterapp:Converter" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding List}"
+                ItemDisplayBinding="{Binding Name}" SelectedIndex="{Binding SecoundItem, Mode=TwoWay}"/>
+            <Entry Grid.Row="0" Grid.Column="2" Text="{Binding BindingContext.SecoundEntry, Source={x:Reference Name=root}}" Keyboard="Numeric"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

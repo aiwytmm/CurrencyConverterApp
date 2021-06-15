@@ -1,0 +1,14 @@
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\bin\Debug\netstandard2.0\CurrencyConverterApp.deps.json
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\bin\Debug\netstandard2.0\CurrencyConverterApp.dll
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\bin\Debug\netstandard2.0\ref\CurrencyConverterApp.dll
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\bin\Debug\netstandard2.0\CurrencyConverterApp.pdb
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.AssemblyInfoInputs.cache
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.AssemblyInfo.cs
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.csproj.CoreCompileInputs.cache
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.dll
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\ref\CurrencyConverterApp.dll
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.pdb
+C:\newProjects\CurrencyConverterApp\CurrencyConverterApp\CurrencyConverterApp\obj\Debug\netstandard2.0\CurrencyConverterApp.csproj.AssemblyReference.cache
